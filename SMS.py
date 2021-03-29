@@ -1,5 +1,5 @@
 import smtplib # import SMTP module
-carriers = {
+carriers = { #list of carriers and associated email servers
         'att':    '@mms.att.net',
 	'tmobile':' @tmomail.net',
 	'verizon':  '@vtext.com',
