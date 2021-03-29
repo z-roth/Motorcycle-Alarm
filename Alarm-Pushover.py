@@ -15,9 +15,9 @@ DELAY = 10
 GPIO.setup(PIR_SENSOR, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # Pushover API setup
-PUSH_TOKEN = "au9azob59644f8hv48tipmwf913iio" # API Token/Key
-PUSH_USER = "uodckjsfo41fo1x19izm27e35chj56" # Your User Key
-PUSH_MSG = "Motion Alarm!" # Push Message you want sent
+PUSH_TOKEN = "<>" # API Token/Key
+PUSH_USER = "<>" # Your User Key
+PUSH_MSG = "<>" # Push Message you want sent
 
 # This function sends the push message using Pushover.
 # Pass in the message that you want sent
